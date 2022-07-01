@@ -33,8 +33,8 @@ const SavedBooks = () => {
       });
 
       removeBookId(bookId);
-    } catch (err) {
-      console.error(err)
+    } catch (error) {
+      console.error(error)
     }
   };
 
