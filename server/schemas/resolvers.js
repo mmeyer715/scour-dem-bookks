@@ -45,7 +45,7 @@ const resolvers = {
 
         // Save Book/ accepts a book author's array, description, title, bookId, image, and link as parameters
         // returns a user type, look into creating whats know as an input type to handle all of these parameters
-        saveBook: async (parent, { bookData }, context) => {
+        savedBooks: async (parent, { bookData }, context) => {
             if (context.user) {
                 const updatedUser = await User.findOneAndUpdate(
                     { _id: context.user._id },
