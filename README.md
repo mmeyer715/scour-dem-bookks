@@ -5,7 +5,7 @@
   
   
   ## Description
-  The is a Google Books search engine. Users are able to search for books by: title, author name, image, link, or description. If a user wishes to save a book, they will need to create an account. If a user has no network connection, the application uses local storage, they will be able to view books they previously saved. This application is a refactored version of a RESTful API application. It now runs off of a GraphQL API built with Apollo Server and was deployed using Heroku. 
+  This is a Google Books search engine. Users are able to search for books by: title, author name, image, link, or description. If a user wishes to save a book, they will need to create an account. If a user has no network connection, the application uses local storage, they will be able to view books they previously saved. This application is a refactored version of a RESTful API application. It now runs off of a GraphQL API built with Apollo Server and was deployed using Heroku. 
 
   ## Table of Contents
 
@@ -15,8 +15,6 @@
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
-  
-  ## Installation
   
 
   ## Usage
@@ -30,9 +28,6 @@
   ## Contributing
   1. Maria Meyer
   2. Lucas Zimmerman
-  
-
-  ## Tests
   
   
   ## Questions
